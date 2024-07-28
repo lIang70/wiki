@@ -2,7 +2,7 @@
 title: Object Model
 description: 
 published: true
-date: 2024-07-28T14:21:03.426Z
+date: 2024-07-28T14:22:31.210Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-28T14:21:03.426Z
