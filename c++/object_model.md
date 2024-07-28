@@ -2,7 +2,7 @@
 title: Object Model
 description: 
 published: true
-date: 2024-07-28T14:22:31.210Z
+date: 2024-07-28T14:29:28.554Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-28T14:21:03.426Z
@@ -14,7 +14,7 @@ dateCreated: 2024-07-28T14:21:03.426Z
 
 > In `x32` machine. Object and pointer layouts for separate class.
 
-```c++
+```C++
 class String {
     int len_ {};
     char* bytes_ { nullptr };
@@ -27,7 +27,7 @@ protected:
 };
 ```
 
-![class_zoo_animal](../doc/class_zoo_animal.svg)
+![class-zoo-animal.svg](/assets/class-zoo-animal.svg)
 
 > Adding *Polymorphism*
 
