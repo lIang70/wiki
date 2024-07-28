@@ -2,7 +2,7 @@
 title: Object Model
 description: 
 published: true
-date: 2024-07-28T14:34:44.750Z
+date: 2024-07-28T14:39:00.210Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-28T14:21:03.426Z
@@ -27,7 +27,7 @@ protected:
 };
 ```
 
-![class-zoo-animal.png](/assets/class-zoo-animal.png)
+![class-zoo-animal.png](/assets/cpp/class-zoo-animal.png)
 
 > Adding *Polymorphism*
 
@@ -48,7 +48,7 @@ protected:
 }
 ```
 
-![class-bear.png](/assets/class-bear.png)
+![class-bear.png](/assets/cpp/class-bear.png)
 
 ### `sizeof()`
 
