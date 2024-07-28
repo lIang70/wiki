@@ -2,7 +2,7 @@
 title: Object Model
 description: 
 published: true
-date: 2024-07-28T14:39:00.210Z
+date: 2024-07-28T14:41:51.709Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-28T14:21:03.426Z
@@ -10,7 +10,7 @@ dateCreated: 2024-07-28T14:21:03.426Z
 
 # Object Model
 
-## `class`
+## Class
 
 > In `x32` machine. Object and pointer layouts for separate class.
 
@@ -56,7 +56,7 @@ protected:
 - *alignment*.
 - The overhead of *virtual*.
 
-## `virtual` function
+## Virtual Function
 
 *Virtual Function*. The overridden member function is set as a virtual function in the base class.
 
@@ -78,7 +78,7 @@ protected:
 
   > A function of the same name inside a class with different argument lists is called overloading; Rewriting is a "local modification" of a function with the same name as the base class by a derived class, requiring that the function features be exactly the same. Of course, the return value types are not necessarily the same
 
-## `virtual` base `class`
+## Virtual Base Class
 
 Virtual base classes allow objects derived from multiple classes that inherit from a single class to inherit from only one object
 
@@ -147,7 +147,7 @@ class MyTest3
   >
   > The compiler selects the "shortest" superclass member function on the inheritance path to call. This rule does not contradict the access control permissions of member functions. That is, you cannot call a lower-priority member function of the same name of type `public` because the higher-priority member function has `private` access control rights.
 
-## `class`'s construction and destruction
+## Class's Construction and Destruction
 
 1. **Which functions will be generated automatically by the null class compiler?**
 
@@ -171,7 +171,7 @@ class MyTest3
 3. **Destruction**
    > The subclass is destructed first, then the base class.
 
-## `RTTI` (*Run Time Type Identification*)
+## RTTI (*Run Time Type Identification*)
 
 > However, due to polymorphism in object-oriented programming, the type of a pointer or Reference in C++ may not be the same as the type it actually represents.
 
