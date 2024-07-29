@@ -2,7 +2,7 @@
 title: Virtual Memory
 description: 
 published: true
-date: 2024-07-29T13:49:18.463Z
+date: 2024-07-29T13:49:35.792Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-29T13:49:18.463Z
@@ -20,7 +20,7 @@ dateCreated: 2024-07-29T13:49:18.463Z
 
 - It protects each process's address space from being corrupted by other processes.
 
-## TLB (translation lookaside buffer)
+## TLB (Translation Lookaside Buffer)
 
 > It is a small cache about PTE in the MMU.
 
